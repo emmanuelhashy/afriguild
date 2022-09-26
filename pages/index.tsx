@@ -6,9 +6,9 @@ import type { NextPage } from 'next'
 const Home: NextPage = () => {
 
   return (
-    <>
+    <div className='max-w-screen-2xl mx-auto'>
       <Navbar />
-      <div className='px-6'>
+      <div className='px-6 '>
         <Hero/>
         <Tournaments />
         <Games />
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       </div>
       <Footer />
 
-    </>
+    </div>
   )
 }
 

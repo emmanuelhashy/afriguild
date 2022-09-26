@@ -31,14 +31,14 @@ const Navbar = () => {
           <a href="#" className=' text-2xl md:text-4xl sm:text-3xl text-white font-semibold'>
             afriguild
           </a>
-          <div className="relative items-center hidden md:flex w-full h-8 rounded-full focus-within:shadow-lg bg-gray-500 overflow-hidden">
-            <div className="grid place-items-center h-full w-10 text-gray-300">
+          <div className="relative items-center hidden md:flex w-full h-8 rounded-full focus-within:shadow-lg  search overflow-hidden">
+            <div className="grid place-items-center h-full w-10 search text-gray-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
             <input
-              className="peer h-full w-full outline-none text-sm text-white pr-2 bg-gray-500"
+              className="peer h-full w-full outline-none text-sm text-white pr-2 search"
               type="text"
               id="search"
               placeholder="Find a tournament" />
@@ -81,20 +81,20 @@ const Navbar = () => {
               <div className='py-2 md:p-4'>
                 <div className='w-8 h-8 flex justify-center items-center rounded-full relative bg-gray-300'>
                   <IoIosNotificationsOutline size={20} />
-                  <p className='bg-red-500 w-4 h-4 top-1 right-1 flex justify-center items-center rounded-full absolute text-xs'>5</p>
+                  <p className='bg-red-500 w-3 h-3 top-1 right-1 flex justify-center items-center rounded-full absolute text-xsm'>5</p>
                 </div>
               </div>
             </li>
             <li>
               <div className='py-2 md:p-4'>
-                <div className=" relative items-center md:hidden flex w-full h-10 rounded-full focus-within:shadow-lg bg-gray-500 overflow-hidden">
+                <div className=" relative items-center md:hidden flex w-full h-10 rounded-full focus-within:shadow-lg search overflow-hidden">
                   <div className="grid place-items-center h-full w-10 text-gray-300">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                   </div>
                   <input
-                    className="peer h-full w-full outline-none text-sm text-white pr-2 bg-gray-500"
+                    className="peer h-full w-full outline-none text-sm text-white pr-2 search"
                     type="text"
                     id="search"
                     placeholder="Find a tournament" />

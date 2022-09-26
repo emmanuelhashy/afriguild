@@ -3,5 +3,24 @@
 @tailwind utilities;
 
 body {
-  background-color: rgb(75 85 99 );
+  background-color: #25272C;
+}
+
+.search {
+  background: #26282D;
+  box-shadow: inset -1px -1px 5px #26282D, inset 5px 5px 10px #13151c;
+}
+
+.react-slideshow-container+ul.indicators {
+  display: flex !important;
+  margin-bottom: -10px !important;
+}
+
+.react-slideshow-container+ul.indicators li button {
+  background-color: green !important;
+}
+
+.react-slideshow-container+ul.indicators li.button.each-slideshow-indicator.active {
+  background: white !important;
+  color: green !important;
 }
