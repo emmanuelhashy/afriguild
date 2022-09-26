@@ -14,13 +14,14 @@ body {
 .react-slideshow-container+ul.indicators {
   display: flex !important;
   margin-bottom: -10px !important;
+  margin-top: 0px !important;
 }
 
 .react-slideshow-container+ul.indicators li button {
   background-color: green !important;
 }
 
-.react-slideshow-container+ul.indicators li.button.each-slideshow-indicator.active {
-  background: white !important;
+.react-slideshow-container+ul.indicators .each-slideshow-indicator.active {
+  background: green !important;
   color: green !important;
 }
