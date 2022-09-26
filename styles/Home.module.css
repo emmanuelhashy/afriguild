@@ -127,3 +127,8 @@
     filter: invert(1);
   }
 }
+
+
+.react-slideshow-container+ul.indicators {
+  margin-top: 0px;
+}
